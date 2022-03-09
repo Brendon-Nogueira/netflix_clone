@@ -48,22 +48,17 @@
 .media-avatar img {
     height: 38px;
 }
-
 @media (min-width: 576px) {
-   
     .navbar .form-control {
         max-width: 180px;
     }
 }
-
 @media (min-width: 992px) {
-  
     .navbar.bg-dark {
         background-color: transparent!important;
         background-image: url('/assets/images/header_gradient.png');
         background-repeat: repeat-x;
     }
-    
     .navbar-brand.flex-grow-1 {
         flex-grow: initial!important;
     }
